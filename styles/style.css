@@ -25,6 +25,9 @@ body{
 .primary-color{
     color: #E95A08;
 }
+.center{
+    text-align: center;
+}
 
 
 /* header style  */
@@ -70,6 +73,50 @@ nav ul li a{
     max-width: 570px;
 }
 
+/* our plants section  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.our-plants{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.our-plants-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 13px;
+    margin-top: 0;
+}
+.plants-boxes{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.plant-box{
+    max-width: 270px;
+}
+.plant-title{
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+.plant-rate{
+    font-size: 1.4rem;;
+    margin-top: 0;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+.cart-btn{
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    padding: 20px 80px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 0;
+}
 
 /* responsive for 576px  */
 @media screen and (max-width: 576px) {
@@ -88,5 +135,24 @@ nav ul li a{
     }
     .banner-title{
         font-size: 1.8rem;
+    }
+    /* plants section  */
+    .plants-boxes{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+    .our-plants-title{
+        font-size: 1.6rem;
+    }
+    .our-plants-description{
+        font-size: 0.9rem;
+    }
+    .plant-box img{
+        width: 100%;
+    }
+    .cart-btn{
+        padding: 10px 40px;
+        font-size: 0.9rem;
+        width: 100%;
     }
 }
