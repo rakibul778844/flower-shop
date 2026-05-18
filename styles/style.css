@@ -118,6 +118,37 @@ main{
     margin-top: 0;
 }
 
+/* flower and plant lover */
+.flower-lover{
+    display: flex;
+    position: relative;
+}
+.badge{
+    height: 286px;
+    width: 286px;
+    position: absolute;
+    margin-top: -120px;
+    left: 360px;
+}
+.lover-photo{
+    height: 600px;
+    width: 540px;
+}
+.lover-text-box{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.lover-title{
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.lover-description{
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
 /* responsive for 576px  */
 @media screen and (max-width: 576px) {
     .nav-link{
