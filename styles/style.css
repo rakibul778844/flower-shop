@@ -188,6 +188,39 @@ main{
     height: 100%;
     border-radius: 16px;
 }
+/* joni bunch */
+.join-bunch{
+    margin-top: 120px;
+    height: 530px;
+    background-image: url(/assets/news-letter-bg.png);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.join-title{
+    font-size: 3.3rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.join-bunch input{
+    padding: 20px 20px;
+    padding-right: 400px;
+    border: none;
+    font-size: 1rem;
+    margin: 0;
+}
+.join-bunch button{
+    padding: 20px 40px;
+    border: none;
+    background-color: #E95A08;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0;
+}
 
 /* responsive for 576px  */
 @media screen and (max-width: 576px) {
@@ -245,5 +278,31 @@ main{
     }
     .lover-text-box{
         margin-left: 0;
+    }
+    /* Deals  */
+    .deal-photo{
+        grid-template-columns: 1fr;
+    }
+    .photo-2{
+        grid-row:3 ;
+    }
+    /* join bunch  */
+    .join-bunch{
+        height: 275px;
+        margin-top: 50px;
+        background-size: cover;
+    }
+    .join-title{
+        font-size: 1.3rem;
+        margin-bottom: 5px;
+    }
+    .join-bunch input{
+        width: 200px;
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+    .join-bunch button{
+        padding: 10px;
+        font-size: 0.8rem;
     }
 }
