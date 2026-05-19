@@ -222,6 +222,33 @@ main{
     margin: 0;
 }
 
+/* footer section  */
+.footer-box{
+    padding-top: 50px;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+    font-size: 1.3rem;
+}
+.footer-box1{
+    max-width: 359px;
+
+}
+.footer-box2 p{
+    margin-bottom: 32px;
+}
+.footer-box3 p{
+    margin-bottom: 32px;
+}
+.footer-box4{
+    display: flex;
+}
+.footer-box4 img{
+    height: 32px;
+    width: 32px;
+    margin:20px 10px;
+}
 /* responsive for 576px  */
 @media screen and (max-width: 576px) {
     .nav-link{
@@ -304,5 +331,12 @@ main{
     .join-bunch button{
         padding: 10px;
         font-size: 0.8rem;
+    }
+    .footer-box{
+        flex-direction: column;
+        gap: 0;
+        margin-left: 20px;
+        margin-bottom: 50px;
+        
     }
 }
