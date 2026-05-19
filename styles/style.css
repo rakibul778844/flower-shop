@@ -149,6 +149,46 @@ main{
     margin-bottom: 20px;
 }
 
+/* latest deals section  */
+.deal-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.deal-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 80px;
+    padding: 0;
+    margin-bottom: 0;
+}
+.deal-description{
+    font-size: 1.4rem;
+    max-width: 888px;
+}
+.deal-photo{
+    display: grid;
+    grid-template-columns: 367px 753px;
+    gap: 28px;
+}
+/* .photo-1{
+    grid-column: 1;
+    grid-row: 2;
+} */
+.photo-2{
+    grid-row: span 2;
+}
+/* .photo-3{
+    grid-column: 1;
+    grid-row: 1;
+} */
+.deal-photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
 /* responsive for 576px  */
 @media screen and (max-width: 576px) {
     .nav-link{
